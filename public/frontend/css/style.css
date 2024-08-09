@@ -598,10 +598,10 @@
   position: relative;
   /* width: 500px; */
 }
-/* .blog-card-img img {
+.blog-card-img img {
   width: 200px;
   height: 100%;
-} */
+}
 .view{
     display: flex;
 }
