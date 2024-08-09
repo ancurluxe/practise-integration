@@ -310,10 +310,10 @@
 .bold {
     font-weight: 700 !important;
 }
-.blog-img-wrapper img {
-    height: 190px;
-    width: 350px;
-    padding-right: 38px;
+
+.blog-img-wrapper{
+    overflow: hidden;
+    border-radius: 12px;
 }
 .blog-img-wrapper-2 img {
     height: 190px;
@@ -425,9 +425,9 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
-.blog-img-wrapper img {
+/* .blog-img-wrapper img {
     width: 376px;
-}
+} */
 .txt-testimonial {
     color: #325372;
     font-weight: 60px;
@@ -570,6 +570,13 @@
     list-style-type: none;
     padding: 7px;
 }
+.inner-container {
+    position: relative;
+}
+.readmore{
+    text-decoration: none;
+    color: #0f0f0f;
+}
 
 
 /* Blogs */
@@ -591,10 +598,10 @@
   position: relative;
   /* width: 500px; */
 }
-.blog-card-img img {
+/* .blog-card-img img {
   width: 200px;
   height: 100%;
-}
+} */
 .view{
     display: flex;
 }

@@ -25,7 +25,7 @@
                                     aspirations. Assisting with the application
                                     process, including documentation,
                                     admission essays, and interviews.</p>
-                                <a href="{{ route('details') }}">Readmore</a>
+                                <a class="readmore stretched-link" href="{{ route('details') }}">Readmore....</a>
 
                             </div>
                         </div>
@@ -43,7 +43,7 @@
                                     studying abroad, including information about
                                     living arrangements, local customs, and
                                     adjusting to a new environment.</p>
-                                <button>Read More -></button>
+                                <a class="readmore stretched-link" href="{{ route('details') }}">Readmore....</a>
 
                             </div>
                         </div>
@@ -61,7 +61,7 @@
                                     goals. Assisting students in selecting
                                     appropriate courses and programs at various
                                     educational levels.</p>
-                                <button>Read More -></button>
+                                <a class="readmore stretched-link" href="{{ route('details') }}">Readmore....</a>
 
                             </div>
                         </div>
@@ -78,7 +78,7 @@
                                 <p class="line-clamp-3 ">Providing information and support regarding
                                     visa requirements and immigration
                                     processes for studying abroad.</p>
-                                <button>Read More -></button>
+                                <a class="readmore stretched-link" href="{{ route('details') }}">Readmore....</a>
 
                             </div>
                         </div>
@@ -86,15 +86,16 @@
                 </div>
                 <!-- card-5 -->
                 <div class="col-lg-4">
-                    <div class="inner-container shadow mb-4">
-                        <div class="blog-img-wrapper">
-                            <img src="{{ asset('frontend/images/mission img.jpg') }}" alt="">
+                    <div class="inner-container shadow mb-4 ">
+                        <div class="blog-img-wrapper ">
+                            <img src="{{ asset('frontend/images/hehe.jpg') }}" alt="">
                             <div class="p-3">
                                 <h6>Career Counseling</h6>
                                 <p class="line-clamp-3 ">Providing guidance on career development,
-                                    job search strategies, and networking
+                                    job search strategies, and networking job search strategies, and networking
+                                    opportunitie
                                     opportunities.</p>
-                                <button>Read More -></button>
+                                <a class="readmore stretched-link" href="{{ route('details') }}">Readmore....</a>
 
                             </div>
                         </div>
@@ -110,7 +111,7 @@
                                 <p class="line-clamp-3 ">Organizing events to provide information
                                     about study abroad options, career trends,
                                     and academic opportunities.</p>
-                                <button>Read More -></button>
+                                <a class="readmore stretched-link" href="{{ route('details') }}">Readmore....</a>
                             </div>
                         </div>
                     </div>
